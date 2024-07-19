@@ -389,7 +389,7 @@
     ],
     [
       "74c7b67d-d69e-4dca-9063-6c1744637617",
-      "Ethernet"
+      "Ethernet PoE"
     ],
     [
       "6f6e1f41-595d-4dda-881d-b12a543de398",
@@ -406,6 +406,10 @@
     [
       "a955767b-836b-415d-9ade-bdfb6e1524e6",
       "PGA"
+    ],
+    [
+      "effecda5-769f-4dde-a513-c082279edfb3",
+      "PSD"
     ]
   ],
   "text_variables": {}

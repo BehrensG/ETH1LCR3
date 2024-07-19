@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 99.06 130.302)
+		(at 162.814 113.538)
 		(size 42.164 29.972)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +18,7 @@
 		)
 		(uuid "43994c6d-e030-4cc9-803d-7f33181d98ca")
 		(property "Sheetname" "Power"
-			(at 99.06 129.5904 0)
+			(at 162.814 112.8264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 99.06 160.8586 0)
+			(at 162.814 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,8 +44,8 @@
 		)
 	)
 	(sheet
-		(at 36.83 117.602)
-		(size 42.164 46.228)
+		(at 32.258 96.52)
+		(size 43.942 25.654)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,7 +56,7 @@
 		)
 		(uuid "69949141-78d8-43de-bf63-b55bbbab5791")
 		(property "Sheetname" "DDS"
-			(at 36.83 116.8904 0)
+			(at 32.258 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,13 +65,113 @@
 			)
 		)
 		(property "Sheetfile" "DDS.kicad_sch"
-			(at 36.83 164.4146 0)
+			(at 32.258 122.7586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "PHI_OUT" output
+			(at 32.258 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5624982d-7536-4bf1-884f-733f694150f6")
+		)
+		(pin "DAC1_OUT" input
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4e497d77-acaa-4e87-8653-f5bd6b174fc2")
+		)
+		(pin "DC_BIAS_VOLTAGE" output
+			(at 32.258 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9590857-6658-4819-84ca-474e267cf8ca")
+		)
+		(pin "DAC0_OUT" input
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26c1aa46-a497-4d6c-b39d-65ce5199d6bf")
+		)
+		(pin "SINE" output
+			(at 32.258 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f4f3d535-b1a3-4de0-ac1a-21914b6b173d")
+		)
+		(pin "DDS_~{FSYNC2}" input
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23b59bd3-3751-4cfb-9449-9bab39f7429b")
+		)
+		(pin "DDS_~{FSYNC1}" input
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9413877f-567a-445d-b555-187a02abd8b5")
+		)
+		(pin "DDS_SCLK" input
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e336c286-6380-4e96-827a-d0e884078fa1")
+		)
+		(pin "DDS_SDATA" input
+			(at 76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65b15b6e-9664-432c-b1c0-db03937567bf")
+		)
+		(pin "RESET_DDS" input
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e309ae4a-ec44-4b4d-879c-64e68daa7c27")
 		)
 		(instances
 			(project "ETH1LCR3"
@@ -82,8 +182,8 @@
 		)
 	)
 	(sheet
-		(at 83.312 65.278)
-		(size 59.69 48.26)
+		(at 92.71 67.31)
+		(size 59.944 46.736)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -94,7 +194,7 @@
 		)
 		(uuid "6f6e1f41-595d-4dda-881d-b12a543de398")
 		(property "Sheetname" "MCU"
-			(at 83.312 64.5664 0)
+			(at 92.71 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,13 +203,113 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 83.312 114.1226 0)
+			(at 92.71 114.6306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "RMII_MDC" bidirectional
+			(at 152.654 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e9250a10-64e3-4447-aa90-5ce21ebe3bcb")
+		)
+		(pin "RMII_RXD1" bidirectional
+			(at 152.654 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16cb92e1-8ded-4194-aba7-1d499eafb671")
+		)
+		(pin "RMII_RXD0" bidirectional
+			(at 152.654 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08fbe220-ba7f-405e-97f9-db85b135253c")
+		)
+		(pin "RMII_TXD1" bidirectional
+			(at 152.654 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59de2f17-63f4-4b40-ab26-81167d3a26d4")
+		)
+		(pin "RMII_TXEN" bidirectional
+			(at 152.654 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b90ffde3-3402-4e83-8c00-d75a3a97b54c")
+		)
+		(pin "RMII_TXD0" bidirectional
+			(at 152.654 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da1f403e-534b-4156-8448-0128444b3e52")
+		)
+		(pin "RMII_CRS_DV" bidirectional
+			(at 152.654 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ecc1099-a149-4048-b2e2-d5db18e9996a")
+		)
+		(pin "RMII_MDIO" bidirectional
+			(at 152.654 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0cd90d1c-ae0e-4c28-b683-0cebaec4e240")
+		)
+		(pin "REF_CLK" bidirectional
+			(at 152.654 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be648313-49aa-42a6-b81f-1dbea3ec79e7")
+		)
+		(pin "NRST" bidirectional
+			(at 152.654 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "45ff1e06-05cb-4921-86c4-ba2a7ac04ba9")
 		)
 		(instances
 			(project "ETH1LCR3"
@@ -120,8 +320,8 @@
 		)
 	)
 	(sheet
-		(at 157.226 67.31)
-		(size 58.166 47.244)
+		(at 157.48 67.31)
+		(size 24.892 29.464)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -131,8 +331,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "74c7b67d-d69e-4dca-9063-6c1744637617")
-		(property "Sheetname" "Ethernet"
-			(at 157.226 66.5984 0)
+		(property "Sheetname" "Ethernet PoE"
+			(at 157.48 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,13 +341,113 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 157.226 115.1386 0)
+			(at 157.48 97.3586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "REF_CLK" bidirectional
+			(at 157.48 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3d6a3f2-72f3-4df0-ba2e-8def2e62d066")
+		)
+		(pin "RMII_MDIO" bidirectional
+			(at 157.48 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47bc5a09-7ace-48c4-88e5-dd06f61d5af7")
+		)
+		(pin "RMII_MDC" bidirectional
+			(at 157.48 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0fc1587d-115f-4269-bd1a-01841d9949e2")
+		)
+		(pin "NRST" bidirectional
+			(at 157.48 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8bd282c1-62c8-471a-a7fb-7e400aa35f3f")
+		)
+		(pin "RMII_TXD1" bidirectional
+			(at 157.48 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e7ebff16-6ee0-442e-9910-2f8170e28924")
+		)
+		(pin "RMII_CRS_DV" bidirectional
+			(at 157.48 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "11d37b1d-2a95-4641-a844-15885d41a667")
+		)
+		(pin "RMII_RXD1" bidirectional
+			(at 157.48 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d61d19e-0580-445d-833b-b3eabeee41ae")
+		)
+		(pin "RMII_TXD0" bidirectional
+			(at 157.48 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "141e69d3-f870-4b17-839c-7cbc5732ca1c")
+		)
+		(pin "RMII_TXEN" bidirectional
+			(at 157.48 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5fbf6a5-8eb3-44c7-9f33-05f60ef0bed1")
+		)
+		(pin "RMII_RXD0" bidirectional
+			(at 157.48 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12436942-2e3e-442a-b3d2-f7dacb9b1d26")
 		)
 		(instances
 			(project "ETH1LCR3"
@@ -187,10 +487,118 @@
 				(justify left top)
 			)
 		)
+		(pin "PGA_A0" input
+			(at 143.764 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c5d4103e-d3f4-4b09-b7e3-2a4e6b134ec7")
+		)
+		(pin "PGA_A1" input
+			(at 143.764 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "66e8e52e-5ca8-429f-8a8e-5af69feb0d3a")
+		)
+		(pin "PGA_IN" input
+			(at 143.764 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db6cb280-833a-4fbd-af2b-f0cbfb9dfeea")
+		)
+		(pin "PGA_OUT" output
+			(at 90.17 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "75d27148-16ce-4ba9-8baa-a6f03897a315")
+		)
+		(pin "PGA_G10" input
+			(at 143.764 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99f7ee54-9f68-4fa2-8911-5dfadbdbdefa")
+		)
+		(pin "PGA_G1" input
+			(at 143.764 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "31fd9e89-78e9-4c4c-bfad-12bf85fcc5c1")
+		)
+		(pin "PGA_G3" input
+			(at 143.764 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4c61e1e-d969-451c-8edb-ae68c6b12d44")
+		)
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.276 25.654)
+		(size 48.768 30.988)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "effecda5-769f-4dde-a513-c082279edfb3")
+		(property "Sheetname" "PSD"
+			(at 176.276 24.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSD.kicad_sch"
+			(at 176.276 57.2266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ETH1LCR3"
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc"
+					(page "7")
 				)
 			)
 		)
