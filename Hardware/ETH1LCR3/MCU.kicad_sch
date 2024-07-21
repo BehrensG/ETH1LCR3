@@ -1314,180 +1314,6 @@
 				)
 			)
 		)
-		(symbol "ETH1ISO224:REF19xxAIDDCT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 2.54 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "REF19xxAIDDCT"
-				(at 1.27 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref1941.pdf?ts=1711096403483&ref_url=https%253A%252F%252Fwww.mouser.it%252F"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Precision voltage references, DIP-8/SO-8/TSSOP-8"
-				(at 2.286 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Precision voltage references"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9m*P1.27mm* TSSOP*4.4x3mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "REF19xxAIDDCT_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "REF19xxAIDDCT_1_1"
-				(pin power_out line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "Vbias"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "Vref"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_names
 				(offset 0) hide)
@@ -4988,6 +4814,213 @@
 				)
 			)
 		)
+		(symbol "Reference_Voltage:REF2033"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "REF2033"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 1.016 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref2033.pdf"
+				(at 1.778 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3V Low-Drift, Low-Power, Dual-Output, VREF and VREF / 2 Voltage Reference, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "voltage reference"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "REF2033_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy 0.635 -0.635) (xy 0 0.635) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.016) (xy 0.635 0.635) (xy -0.635 0.635) (xy -0.635 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "REF2033_1_1"
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "Vbias"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "Vref"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -5540,114 +5573,6 @@
 				)
 			)
 		)
-		(symbol "power:VCOM"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCOM"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCOM\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCOM_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "VCOM_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:VDDA"
 			(power)
 			(pin_numbers hide)
@@ -5782,7 +5707,7 @@
 		(uuid "0a468c0a-cd7b-4b03-abf6-7d24e5f0d493")
 	)
 	(junction
-		(at 31.75 138.43)
+		(at 30.48 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14e1ba01-8a2f-4c3a-b5bf-feb424031751")
@@ -5804,12 +5729,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4623d963-4434-42b4-b836-6bd88edf4a7b")
-	)
-	(junction
-		(at 40.64 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "540f5222-f832-4974-8ef3-46517070b9b1")
 	)
 	(junction
 		(at 101.6 29.21)
@@ -5848,6 +5767,12 @@
 		(uuid "7b8ee696-0a68-4a13-b865-99f474d3e241")
 	)
 	(junction
+		(at 39.37 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ba9e1fd-7a82-45f5-9a9c-676412a52c47")
+	)
+	(junction
 		(at 142.24 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5866,7 +5791,7 @@
 		(uuid "85435433-2fc3-467c-ab26-4b1247ecc74b")
 	)
 	(junction
-		(at 50.8 138.43)
+		(at 45.72 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8875b248-38ee-4ec4-b51c-80e7d49e3d3b")
@@ -5926,7 +5851,7 @@
 		(uuid "a7cd9517-66a0-4f31-a17f-8d4be6ca2830")
 	)
 	(junction
-		(at 31.75 120.65)
+		(at 30.48 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9f0e3bd-f5c6-4faf-9784-b9f1b7cc9067")
@@ -5950,7 +5875,7 @@
 		(uuid "c31066a7-c97a-4e60-a9bf-a981d0f0fc5c")
 	)
 	(junction
-		(at 50.8 120.65)
+		(at 45.72 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce7d5f9c-005d-4800-858b-8dc695fd8387")
@@ -6321,7 +6246,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 120.65) (xy 40.64 120.65)
+			(xy 30.48 125.73) (xy 39.37 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6451,7 +6376,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 120.65) (xy 31.75 120.65)
+			(xy 19.05 125.73) (xy 30.48 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6491,7 +6416,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 120.65) (xy 31.75 125.73)
+			(xy 30.48 125.73) (xy 30.48 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6551,13 +6476,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 120.65) (xy 50.8 120.65)
+			(xy 39.37 125.73) (xy 45.72 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "382f395d-083b-48dc-91e5-72e3f35a71b5")
+		(uuid "3898987f-46d4-4b1d-8c3e-0fa53201bd0c")
 	)
 	(wire
 		(pts
@@ -6631,7 +6556,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 138.43) (xy 20.32 133.35)
+			(xy 19.05 143.51) (xy 19.05 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6741,7 +6666,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 138.43) (xy 50.8 139.7)
+			(xy 45.72 143.51) (xy 45.72 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6861,6 +6786,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 134.62) (xy 40.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc988b0-8a05-48ea-9d6c-2689603a53af")
+	)
+	(wire
+		(pts
 			(xy 27.94 181.61) (xy 27.94 182.88)
 		)
 		(stroke
@@ -6891,7 +6826,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 133.35) (xy 31.75 138.43)
+			(xy 30.48 138.43) (xy 30.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6911,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 50.8 121.92)
+			(xy 45.72 125.73) (xy 45.72 127)
 		)
 		(stroke
 			(width 0)
@@ -7061,7 +6996,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 138.43) (xy 31.75 138.43)
+			(xy 45.72 143.51) (xy 30.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7241,7 +7176,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 137.16) (xy 50.8 138.43)
+			(xy 45.72 142.24) (xy 45.72 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7371,7 +7306,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 120.65) (xy 40.64 129.54)
+			(xy 39.37 125.73) (xy 39.37 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7651,7 +7586,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 125.73) (xy 20.32 120.65)
+			(xy 19.05 130.81) (xy 19.05 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7661,7 +7596,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 119.38) (xy 50.8 120.65)
+			(xy 45.72 124.46) (xy 45.72 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7671,7 +7606,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 138.43) (xy 20.32 138.43)
+			(xy 30.48 143.51) (xy 19.05 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8154,6 +8089,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0325")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0431")
@@ -8241,6 +8182,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "D301")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "D401")
@@ -8323,6 +8270,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C301")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "C401")
@@ -8398,6 +8351,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0436")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -8479,6 +8438,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0320")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0426")
@@ -8521,7 +8486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ETH1ISO224:NX5032GA"
+		(property "Footprint" ""
 			(at 114.3 49.53 0)
 			(effects
 				(font
@@ -8558,6 +8523,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "Y401")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "Y301")
 					(unit 1)
 				)
 			)
@@ -8638,6 +8609,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "FB401")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "FB301")
 					(unit 1)
 				)
 			)
@@ -8723,6 +8700,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C316")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "C420")
@@ -8799,6 +8782,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0426")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -8884,6 +8873,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C307")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "C407")
@@ -8959,6 +8954,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0406")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -9040,6 +9041,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0318")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0424")
@@ -9118,6 +9125,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#FLG0301")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#FLG0401")
@@ -9193,6 +9206,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0438")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -9275,6 +9294,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0419")
@@ -9350,6 +9375,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0421")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -9431,6 +9462,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0401")
@@ -9506,6 +9543,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0428")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -9589,6 +9632,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "R303")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "R405")
@@ -9605,7 +9654,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VADC")
-		(at 60.96 127 270)
+		(at 55.88 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9614,7 +9663,7 @@
 		(fields_autoplaced yes)
 		(uuid "57f415e5-a448-4224-b398-a35ade758536")
 		(property "Reference" "#PWR0414"
-			(at 59.69 130.81 0)
+			(at 54.61 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +9672,7 @@
 			)
 		)
 		(property "Value" "+3.3VADC"
-			(at 64.77 126.9999 90)
+			(at 59.69 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 127 0)
+			(at 55.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,7 +9690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 127 0)
+			(at 55.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9650,7 +9699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
-			(at 60.96 127 0)
+			(at 55.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,6 +9717,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0412")
@@ -9678,7 +9733,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 31.75 129.54 0)
+		(at 30.48 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9687,7 +9742,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d37d474-77fb-46dc-aa6f-57da02800409")
 		(property "Reference" "C405"
-			(at 34.671 128.3716 0)
+			(at 33.401 133.4516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9696,7 +9751,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 34.671 130.683 0)
+			(at 33.401 135.763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9705,7 +9760,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 32.7152 133.35 0)
+			(at 31.4452 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,7 +9769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 129.54 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9723,7 +9778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 129.54 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,6 +9796,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "C405")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -9823,6 +9884,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0322")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0428")
@@ -9892,6 +9959,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0439")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0332")
 					(unit 1)
 				)
 			)
@@ -9977,6 +10050,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C303")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "C405")
@@ -9993,7 +10072,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 20.32 129.54 0)
+		(at 19.05 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10001,7 +10080,7 @@
 		(dnp no)
 		(uuid "67cc35e9-28d9-4d4e-a681-d8a73ddb0716")
 		(property "Reference" "C402"
-			(at 23.368 128.524 0)
+			(at 22.098 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,7 +10089,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 23.368 130.8354 0)
+			(at 22.098 135.9154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +10098,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 21.2852 133.35 0)
+			(at 20.0152 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10028,7 +10107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 129.54 0)
+			(at 19.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10037,7 +10116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 129.54 0)
+			(at 19.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,6 +10134,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "C402")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -10133,6 +10218,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0431")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -10218,6 +10309,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C306")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "C408")
@@ -10300,6 +10397,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "R304")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "R406")
@@ -10378,6 +10481,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0323")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0429")
@@ -10453,6 +10562,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0424")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -10538,6 +10653,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C311")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "C415")
@@ -10620,6 +10741,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "R302")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "R404")
@@ -10695,6 +10822,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0422")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -10776,6 +10909,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0405")
@@ -10792,7 +10931,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 139.7 0)
+		(at 45.72 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10801,7 +10940,7 @@
 		(fields_autoplaced yes)
 		(uuid "957f8570-a1d5-4888-b692-8eb1abe1881b")
 		(property "Reference" "#PWR0411"
-			(at 50.8 146.05 0)
+			(at 45.72 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10810,7 +10949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 144.145 0)
+			(at 45.72 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +10957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 139.7 0)
+			(at 45.72 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,7 +10966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 139.7 0)
+			(at 45.72 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10836,7 +10975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 139.7 0)
+			(at 45.72 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,6 +10990,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0411")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -10933,6 +11078,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0326")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0432")
@@ -10942,6 +11093,85 @@
 			(project "ETH1IRCAM1"
 				(path "/f8ed47a9-95cb-42d4-bd7f-c1b2ff57d6fd/02ab86d0-6a73-43f0-a2e2-fa1962166526"
 					(reference "#PWR0423")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Reference_Voltage:REF2033")
+		(at 48.26 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cc30224-78f0-4ff9-b6c4-5780acd3af91")
+		(property "Reference" "U301"
+			(at 47.9141 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "REF2033"
+			(at 47.9141 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 49.276 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref2033.pdf"
+			(at 50.038 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3V Low-Drift, Low-Power, Dual-Output, VREF and VREF / 2 Voltage Reference, SOT-23-5"
+			(at 48.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "be1474b2-f018-41d4-aba7-a759beb37bc1")
+		)
+		(pin "1"
+			(uuid "37f857f9-23e5-4852-b796-12518fc8c9bd")
+		)
+		(pin "3"
+			(uuid "05737228-36ec-4d28-b81f-a3b4f0eaf6e7")
+		)
+		(pin "2"
+			(uuid "05c71c00-0db5-44ba-8223-b4cbf7920d18")
+		)
+		(pin "4"
+			(uuid "4ac72623-ee1d-49dd-a019-98b25c74507b")
+		)
+		(instances
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -11012,6 +11242,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "C416")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -11093,6 +11329,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0312")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0418")
@@ -11102,93 +11344,6 @@
 			(project "ETH1IRCAM1"
 				(path "/f8ed47a9-95cb-42d4-bd7f-c1b2ff57d6fd/02ab86d0-6a73-43f0-a2e2-fa1962166526"
 					(reference "#PWR0405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ETH1ISO224:REF19xxAIDDCT")
-		(at 50.8 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4c830f2-8e37-4415-9a60-72c4e3a172ce")
-		(property "Reference" "U402"
-			(at 52.9941 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "REF2033AIDDCT"
-			(at 52.9941 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 50.8 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref1941.pdf?ts=1711096403483&ref_url=https%253A%252F%252Fwww.mouser.it%252F"
-			(at 50.8 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision voltage references, DIP-8/SO-8/TSSOP-8"
-			(at 53.086 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9dc508d-408a-477a-91f9-33abee4eb042")
-		)
-		(pin "3"
-			(uuid "39f0ce1b-015c-4da1-bdde-f60706e54186")
-		)
-		(pin "4"
-			(uuid "de83d1b7-f519-4ef8-807a-6bded426b766")
-		)
-		(pin "2"
-			(uuid "03f3218f-ebaa-4e0d-9785-28880715b4bd")
-		)
-		(pin "5"
-			(uuid "f540cb06-f01c-41aa-9da9-ccf1dab0fba0")
-		)
-		(instances
-			(project "ETH1ISO224"
-				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
-					(reference "U402")
-					(unit 1)
-				)
-			)
-			(project "ETH1HMSR-SMS"
-				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
-					(reference "U402")
 					(unit 1)
 				)
 			)
@@ -11255,6 +11410,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0423")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -11340,6 +11501,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C309")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "C411")
@@ -11415,6 +11582,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0418")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -11500,6 +11673,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C314")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "C418")
@@ -11578,6 +11757,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0309")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0415")
@@ -11594,7 +11779,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 50.8 119.38 0)
+		(at 45.72 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11602,8 +11787,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b41fc7f0-131a-4dfb-b8b1-73236e7b005e")
-		(property "Reference" "#PWR0301"
-			(at 50.8 123.19 0)
+		(property "Reference" "#PWR0306"
+			(at 45.72 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11612,7 +11797,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 50.8 114.3 0)
+			(at 45.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11620,7 +11805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 119.38 0)
+			(at 45.72 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11629,7 +11814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 119.38 0)
+			(at 45.72 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11638,7 +11823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 119.38 0)
+			(at 45.72 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11652,7 +11837,7 @@
 		(instances
 			(project ""
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
-					(reference "#PWR0301")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -11723,6 +11908,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "C419")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C315")
 					(unit 1)
 				)
 			)
@@ -11809,6 +12000,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "R301")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "R401")
@@ -11887,6 +12084,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0327")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0433")
@@ -11896,73 +12099,6 @@
 			(project "ETH1IRCAM1"
 				(path "/f8ed47a9-95cb-42d4-bd7f-c1b2ff57d6fd/02ab86d0-6a73-43f0-a2e2-fa1962166526"
 					(reference "#PWR0421")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCOM")
-		(at 60.96 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc43f95f-b19f-4a68-b141-a3e18dc3ae58")
-		(property "Reference" "#PWR0415"
-			(at 57.15 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCOM"
-			(at 64.77 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCOM\""
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3975db6-ae23-4209-bf77-291ff0d77c33")
-		)
-		(instances
-			(project "ETH1ISO224"
-				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
-					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -12031,6 +12167,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "C422")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C318")
 					(unit 1)
 				)
 			)
@@ -12138,6 +12280,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "J301")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "J401")
@@ -12238,6 +12386,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "RN301")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "RN401")
@@ -12320,6 +12474,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "R305")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "R407")
@@ -12398,6 +12558,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0404")
@@ -12467,6 +12633,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0435")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0328")
 					(unit 1)
 				)
 			)
@@ -12552,6 +12724,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C317")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "C421")
@@ -12627,6 +12805,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0417")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -12713,6 +12897,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "JP301")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "JP401")
@@ -12792,6 +12982,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "C404")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -13172,6 +13368,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "U302")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "U403")
@@ -13245,6 +13447,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "C410")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C308")
 					(unit 1)
 				)
 			)
@@ -13346,6 +13554,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "U303")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "U404")
@@ -13428,6 +13642,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C310")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "C414")
@@ -13503,6 +13723,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "#PWR0437")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0330")
 					(unit 1)
 				)
 			)
@@ -13583,6 +13809,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
 			(project "ETH1HMSR-SMS"
 				(path "/c9f88626-4b87-4d35-a77a-42f8d5451fae/b5799081-919e-4d88-9f68-c3d7000bcf73"
 					(reference "#PWR0403")
@@ -13656,6 +13888,12 @@
 			(project "ETH1ISO224"
 				(path "/093d5244-f12f-48bc-bb5b-bcbdc8fa59fa/0064cd61-5529-40f7-bb6b-05e681e46275"
 					(reference "C417")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/6f6e1f41-595d-4dda-881d-b12a543de398"
+					(reference "C313")
 					(unit 1)
 				)
 			)
