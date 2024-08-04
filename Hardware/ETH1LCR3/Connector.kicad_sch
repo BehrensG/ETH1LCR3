@@ -1944,9 +1944,9 @@
 		)
 		(symbol "power:+24V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1994,7 +1994,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2044,8 +2044,8 @@
 			(symbol "+24V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+24V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2064,9 +2064,9 @@
 		)
 		(symbol "power:Earth"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2085,7 +2085,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2115,7 +2114,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag ground gnd"
+			(property "ki_keywords" "global ground gnd"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2177,8 +2176,8 @@
 			(symbol "Earth_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "Earth"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2197,9 +2196,9 @@
 		)
 		(symbol "power:GNDPWR"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2238,7 +2237,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , power ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2247,7 +2246,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2345,8 +2344,8 @@
 			(symbol "GNDPWR_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GNDPWR"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2393,32 +2392,144 @@
 		(uuid "01c74007-c301-4df4-9c0f-38fb5ef1c830")
 	)
 	(no_connect
+		(at 109.22 93.98)
+		(uuid "0a2905c4-ccf0-4edc-8a47-4f069517b224")
+	)
+	(no_connect
+		(at 109.22 76.2)
+		(uuid "1551b2cb-6332-4d47-933c-08240796d632")
+	)
+	(no_connect
+		(at 109.22 55.88)
+		(uuid "19c8dfc4-64cd-47aa-91d7-90056326b703")
+	)
+	(no_connect
+		(at 121.92 66.04)
+		(uuid "25d53629-d6ff-4733-a2ac-2d147989f22c")
+	)
+	(no_connect
+		(at 121.92 68.58)
+		(uuid "28152181-2ee7-4389-9279-a5522c6dda56")
+	)
+	(no_connect
+		(at 109.22 66.04)
+		(uuid "285d5e8c-6bb1-450f-8cfd-a3cb1de7d947")
+	)
+	(no_connect
+		(at 121.92 55.88)
+		(uuid "31188c72-b4cc-4214-9dcc-28699aa75b43")
+	)
+	(no_connect
 		(at 121.92 83.82)
 		(uuid "358af2e6-71b6-4a45-8da8-63ea1f877c73")
+	)
+	(no_connect
+		(at 121.92 71.12)
+		(uuid "4802c94e-835d-460d-be73-68f0362622b8")
+	)
+	(no_connect
+		(at 109.22 60.96)
+		(uuid "4f2c2d62-6fc5-4019-8185-7913678789f4")
+	)
+	(no_connect
+		(at 109.22 68.58)
+		(uuid "5813717f-63dc-49d6-8de9-9a5dd18f40a9")
 	)
 	(no_connect
 		(at 121.92 109.22)
 		(uuid "594e69e2-cca7-418d-8e5e-8335e260ab7b")
 	)
 	(no_connect
+		(at 121.92 99.06)
+		(uuid "5c06841f-851e-4266-a0dd-6393bdb662b3")
+	)
+	(no_connect
+		(at 109.22 99.06)
+		(uuid "60147b0e-4a4c-4150-ac6b-ec023aa5893c")
+	)
+	(no_connect
+		(at 109.22 96.52)
+		(uuid "61c5bc0d-019d-439f-9b89-f5483e762f41")
+	)
+	(no_connect
+		(at 109.22 71.12)
+		(uuid "65968ab4-569f-4469-97f1-ed943503dd59")
+	)
+	(no_connect
+		(at 121.92 101.6)
+		(uuid "68dae06e-cbbd-4285-a360-3ecfd83edcd9")
+	)
+	(no_connect
+		(at 121.92 63.5)
+		(uuid "6aecc624-0338-4a28-81d4-2170dd6b53d2")
+	)
+	(no_connect
 		(at 121.92 111.76)
 		(uuid "8db32554-4513-4f20-b273-192473843986")
+	)
+	(no_connect
+		(at 121.92 96.52)
+		(uuid "912c75b9-1508-49e6-bd59-8b46845351d1")
 	)
 	(no_connect
 		(at 109.22 109.22)
 		(uuid "955f3822-645b-4443-866f-3fc664f737c2")
 	)
 	(no_connect
+		(at 121.92 78.74)
+		(uuid "a5b22ac5-5282-4245-87f9-a6cbd1eed222")
+	)
+	(no_connect
+		(at 121.92 60.96)
+		(uuid "aa1850d6-5872-46d7-935e-f3fa820a3707")
+	)
+	(no_connect
 		(at 109.22 83.82)
 		(uuid "ad177a08-4b8f-45c4-ac54-a3e7dbb979a0")
+	)
+	(no_connect
+		(at 109.22 101.6)
+		(uuid "b04b6dde-c9cd-4035-9629-0109a161b2d5")
+	)
+	(no_connect
+		(at 109.22 78.74)
+		(uuid "b3d41d48-0000-47d4-860b-6f1e3794f8c0")
+	)
+	(no_connect
+		(at 121.92 93.98)
+		(uuid "c3746e4e-376f-4bac-b1f5-db99065e1b8e")
+	)
+	(no_connect
+		(at 109.22 73.66)
+		(uuid "c442ec72-d343-442a-a127-a3e0a9968ba9")
+	)
+	(no_connect
+		(at 109.22 63.5)
+		(uuid "ca719672-57fe-4456-a4f0-62011f1deced")
 	)
 	(no_connect
 		(at 109.22 111.76)
 		(uuid "ca8c9617-eda4-4af4-8531-171f19fda7d8")
 	)
 	(no_connect
+		(at 121.92 73.66)
+		(uuid "d63bfc7b-82cb-476e-b24d-f5585ce1cd38")
+	)
+	(no_connect
+		(at 109.22 58.42)
+		(uuid "db2c3f53-f4d6-431f-98fa-d81b1d902ab6")
+	)
+	(no_connect
 		(at 121.92 38.1)
 		(uuid "f1860278-4f9b-4c1e-9473-5cbf5562ccbf")
+	)
+	(no_connect
+		(at 121.92 76.2)
+		(uuid "fe6449a9-1aed-4e4a-8677-4c4f2b666393")
+	)
+	(no_connect
+		(at 121.92 58.42)
+		(uuid "ffda4175-dc12-4a2d-b0f9-a331cb04a31f")
 	)
 	(wire
 		(pts
@@ -2744,6 +2855,18 @@
 		)
 		(uuid "a67d0a3b-4e5c-4155-9725-45ddc214ad0b")
 	)
+	(hierarchical_label "EXT_TRIG"
+		(shape bidirectional)
+		(at 41.91 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a83226ca-5603-4dcb-bdeb-b1a270d4f241")
+	)
 	(hierarchical_label "HS_REAR"
 		(shape bidirectional)
 		(at 43.18 43.18 180)
@@ -2765,7 +2888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06a7c174-4fd9-48f5-87d6-59fcb760413f")
-		(property "Reference" "#PWR01504"
+		(property "Reference" "#PWR01505"
 			(at 129.54 81.28 0)
 			(effects
 				(font
@@ -2801,7 +2924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 123.19 81.28 0)
 			(effects
 				(font
@@ -2816,7 +2939,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/4b99b960-154b-4647-bcd6-01f80df128c7"
-					(reference "#PWR01504")
+					(reference "#PWR01505")
 					(unit 1)
 				)
 			)
@@ -2831,7 +2954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ed2493a-89c1-4034-a322-fe57f875c342")
-		(property "Reference" "#PWR01505"
+		(property "Reference" "#PWR01502"
 			(at 110.49 114.3 0)
 			(effects
 				(font
@@ -2867,7 +2990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 106.68 114.3 0)
 			(effects
 				(font
@@ -2882,7 +3005,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/4b99b960-154b-4647-bcd6-01f80df128c7"
-					(reference "#PWR01505")
+					(reference "#PWR01502")
 					(unit 1)
 				)
 			)
@@ -2897,7 +3020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fd3f124-7889-4f39-9a3e-ce871a23d332")
-		(property "Reference" "#PWR01501"
+		(property "Reference" "#PWR01504"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -2933,7 +3056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 107.95 91.44 0)
 			(effects
 				(font
@@ -2948,7 +3071,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/4b99b960-154b-4647-bcd6-01f80df128c7"
-					(reference "#PWR01501")
+					(reference "#PWR01504")
 					(unit 1)
 				)
 			)
@@ -2963,7 +3086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f0dd7bf-2174-44b4-8301-dd2ad07937d8")
-		(property "Reference" "#PWR01502"
+		(property "Reference" "#PWR01506"
 			(at 129.54 91.44 0)
 			(effects
 				(font
@@ -2999,7 +3122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 123.19 91.44 0)
 			(effects
 				(font
@@ -3014,7 +3137,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/4b99b960-154b-4647-bcd6-01f80df128c7"
-					(reference "#PWR01502")
+					(reference "#PWR01506")
 					(unit 1)
 				)
 			)
@@ -3065,7 +3188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 107.95 81.28 0)
 			(effects
 				(font
@@ -3350,7 +3473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b97c6101-6e62-45a4-ae86-e879d7427419")
-		(property "Reference" "#PWR01506"
+		(property "Reference" "#PWR01508"
 			(at 120.65 114.3 0)
 			(effects
 				(font
@@ -3386,7 +3509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 124.46 114.3 0)
 			(effects
 				(font
@@ -3401,7 +3524,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/4b99b960-154b-4647-bcd6-01f80df128c7"
-					(reference "#PWR01506")
+					(reference "#PWR01508")
 					(unit 1)
 				)
 			)
@@ -3416,7 +3539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c626f4af-f702-46b8-a30b-d8235bdd302c")
-		(property "Reference" "#PWR01507"
+		(property "Reference" "#PWR01501"
 			(at 101.6 104.14 0)
 			(effects
 				(font
@@ -3452,7 +3575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 106.68 104.14 0)
 			(effects
 				(font
@@ -3467,7 +3590,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/4b99b960-154b-4647-bcd6-01f80df128c7"
-					(reference "#PWR01507")
+					(reference "#PWR01501")
 					(unit 1)
 				)
 			)
@@ -3483,7 +3606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f398effe-9e18-46f6-a64b-00afcfabfe40")
-		(property "Reference" "#PWR01508"
+		(property "Reference" "#PWR01507"
 			(at 129.54 104.14 0)
 			(effects
 				(font
@@ -3519,7 +3642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 124.46 104.14 0)
 			(effects
 				(font
@@ -3534,7 +3657,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/4b99b960-154b-4647-bcd6-01f80df128c7"
-					(reference "#PWR01508")
+					(reference "#PWR01507")
 					(unit 1)
 				)
 			)

@@ -803,7 +803,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6280,7 +6280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04658cd2-534e-466f-a647-4baec36aa342")
-		(property "Reference" "R208"
+		(property "Reference" "R209"
 			(at 222.758 95.3516 0)
 			(effects
 				(font
@@ -6334,7 +6334,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "R208")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -6616,7 +6616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 214.63 111.76 0)
 			(effects
 				(font
@@ -6646,7 +6646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24ecd23c-b2d6-48eb-a153-316fce3d73ef")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0217"
 			(at 166.37 40.64 0)
 			(effects
 				(font
@@ -6696,7 +6696,7 @@
 		(instances
 			(project "ETH1HMSR-SMS"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "#PWR0219")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -6882,7 +6882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32e8f94b-8e61-4be9-8b30-3db2225de383")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0221"
 			(at 203.2 128.27 0)
 			(effects
 				(font
@@ -6918,7 +6918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 203.2 121.92 0)
 			(effects
 				(font
@@ -6933,7 +6933,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "#PWR0218")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -7219,7 +7219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 113.03 0)
 			(effects
 				(font
@@ -7477,7 +7477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "550cef97-4e68-45ae-86d7-798a84adcb34")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0216"
 			(at 124.46 40.64 0)
 			(effects
 				(font
@@ -7527,7 +7527,7 @@
 		(instances
 			(project "ETH1HMSR-SMS"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "#PWR0217")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -7540,6 +7540,72 @@
 			(project "ETH1IRCAM1"
 				(path "/f8ed47a9-95cb-42d4-bd7f-c1b2ff57d6fd/5a701738-cd49-49a3-a155-1a9f780a319a"
 					(reference "#PWR0315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 227.33 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62ed119f-eed5-43aa-b4e8-ade463e43c03")
+		(property "Reference" "#PWR0223"
+			(at 227.33 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 227.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "309f0ede-33a8-46be-a3c9-89c21cc3cbde")
+		)
+		(instances
+			(project "ETH1LCR3"
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -7704,6 +7770,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 227.33 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76b23c45-9441-404b-87ea-580156108ad0")
+		(property "Reference" "#FLG0203"
+			(at 227.33 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 227.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 227.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec22530c-8db1-44e4-9652-e55749b30f20")
+		)
+		(instances
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
+					(reference "#FLG0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack04")
 		(at 142.24 33.02 0)
 		(unit 1)
@@ -7749,7 +7881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 resistor network, parallel topology"
 			(at 142.24 33.02 0)
 			(effects
 				(font
@@ -7840,7 +7972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 resistor network, parallel topology"
 			(at 39.37 81.28 0)
 			(effects
 				(font
@@ -7974,7 +8106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88f84521-f9a4-471d-8990-9a56c9165b78")
-		(property "Reference" "C215"
+		(property "Reference" "C212"
 			(at 180.721 94.0816 0)
 			(effects
 				(font
@@ -8028,7 +8160,7 @@
 		(instances
 			(project "ETH1HMSR-SMS"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "C215")
+					(reference "C212")
 					(unit 1)
 				)
 			)
@@ -8292,7 +8424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90d5ebd0-7078-4641-84b0-b08e77195b7b")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0218"
 			(at 177.8 26.67 0)
 			(effects
 				(font
@@ -8342,7 +8474,7 @@
 		(instances
 			(project "ETH1HMSR-SMS"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "#PWR0220")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -8369,7 +8501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91211a7d-e282-4244-8a29-3f3055d0ef6d")
-		(property "Reference" "R207"
+		(property "Reference" "R208"
 			(at 210.058 95.3516 0)
 			(effects
 				(font
@@ -8423,7 +8555,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "R207")
+					(reference "R208")
 					(unit 1)
 				)
 			)
@@ -8588,7 +8720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95101e74-3fbf-48a9-8c15-3c3b31d554c6")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0220"
 			(at 190.5 128.27 0)
 			(effects
 				(font
@@ -8623,7 +8755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 190.5 121.92 0)
 			(effects
 				(font
@@ -8638,7 +8770,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "#PWR0213")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -8734,7 +8866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9832e190-1fa0-4410-92fd-a20d80b56e7b")
-		(property "Reference" "R203"
+		(property "Reference" "R204"
 			(at 105.918 105.5116 0)
 			(effects
 				(font
@@ -8788,7 +8920,7 @@
 		(instances
 			(project "ETH1HMSR-SMS"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "R203")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -8969,7 +9101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a55f13c8-9206-47bc-9159-be61e95d1ce0")
-		(property "Reference" "C211"
+		(property "Reference" "C213"
 			(at 196.85 110.4392 90)
 			(effects
 				(font
@@ -9021,7 +9153,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "C211")
+					(reference "C213")
 					(unit 1)
 				)
 			)
@@ -9036,7 +9168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad94354b-913d-4bcd-b6a9-57ebcb1641ba")
-		(property "Reference" "R209"
+		(property "Reference" "R207"
 			(at 196.85 101.4222 90)
 			(effects
 				(font
@@ -9088,7 +9220,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "R209")
+					(reference "R207")
 					(unit 1)
 				)
 			)
@@ -9103,7 +9235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae9af069-11ff-4b2c-bec7-04e8aa741f81")
-		(property "Reference" "C214"
+		(property "Reference" "C211"
 			(at 169.291 28.0416 0)
 			(effects
 				(font
@@ -9157,7 +9289,7 @@
 		(instances
 			(project "ETH1HMSR-SMS"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "C214")
+					(reference "C211")
 					(unit 1)
 				)
 			)
@@ -9184,7 +9316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afdfd6d8-c044-4cad-9d12-341bf77064e7")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0213"
 			(at 114.3 86.36 0)
 			(effects
 				(font
@@ -9235,7 +9367,7 @@
 		(instances
 			(project "ETH1HMSR-SMS"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "#PWR0214")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -9262,7 +9394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7ffee7a-b461-4446-81ce-963eb8bd2fb0")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0219"
 			(at 177.8 106.68 0)
 			(effects
 				(font
@@ -9312,7 +9444,7 @@
 		(instances
 			(project "ETH1HMSR-SMS"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "#PWR0221")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -9749,7 +9881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3744ded-edce-4bb3-aabf-d6fee0bec102")
-		(property "Reference" "C212"
+		(property "Reference" "C214"
 			(at 217.551 105.5116 0)
 			(effects
 				(font
@@ -9803,7 +9935,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "C212")
+					(reference "C214")
 					(unit 1)
 				)
 			)
@@ -9960,85 +10092,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:SRV05-4")
-		(at 251.46 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dffecd8d-5061-4155-9215-29e79b0fcbdd")
-		(property "Reference" "U202"
-			(at 258.826 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SRV05-4"
-			(at 258.826 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Silvertel_Ag99xxLP_THT"
-			(at 269.24 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
-			(at 251.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
-			(at 251.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "11bb024c-c292-45d6-a6aa-61cf22e7a786")
-		)
-		(pin "5"
-			(uuid "8719b45a-8fdc-4154-8b53-25094fd29c3a")
-		)
-		(pin "1"
-			(uuid "c2442567-0570-4ac2-831c-269e6bf4f067")
-		)
-		(pin "3"
-			(uuid "e87cf811-13c5-42e5-bf28-57a253f17f58")
-		)
-		(pin "4"
-			(uuid "fde84526-f8fe-4013-828b-2becbd660809")
-		)
-		(pin "2"
-			(uuid "976e714e-fec3-4cdd-b8ea-199b7677f67d")
-		)
-		(instances
-			(project ""
-				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "U202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_Ethernet:LAN8742A")
 		(at 80.01 83.82 0)
 		(unit 1)
@@ -10189,6 +10242,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:SRV05-4")
+		(at 251.46 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1fec986-8ab6-430c-93f6-8fcfe5cea8d9")
+		(property "Reference" "U202"
+			(at 254.4765 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SRV05-4"
+			(at 254.4765 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 269.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bd72412e-d0c2-4747-b104-6863437c778f")
+		)
+		(pin "2"
+			(uuid "d3bcc1c4-8f98-42a9-a0d5-c848bafc0238")
+		)
+		(pin "4"
+			(uuid "866caa23-1e91-48b7-abf2-9e50eb6a2095")
+		)
+		(pin "6"
+			(uuid "173fd3f0-2c9d-461e-b86d-80e6e28a396e")
+		)
+		(pin "5"
+			(uuid "3ee2682a-4d74-47eb-b1ed-594afde87db8")
+		)
+		(pin "1"
+			(uuid "d5e191d1-c4ea-49f3-8c41-a147d413245e")
+		)
+		(instances
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
+					(reference "U202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 34.29 0)
 		(unit 1)
@@ -10197,7 +10332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2a75103-980e-41da-9876-bcd6cc5e80fd")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0214"
 			(at 109.22 40.64 0)
 			(effects
 				(font
@@ -10247,7 +10382,7 @@
 		(instances
 			(project "ETH1HMSR-SMS"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "#PWR0216")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -10388,7 +10523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 resistor network, parallel topology"
 			(at 63.5 161.29 0)
 			(effects
 				(font
@@ -10445,7 +10580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb797bf1-6525-4e20-9eb4-ba0dcb0adae5")
-		(property "Reference" "R204"
+		(property "Reference" "R203"
 			(at 102.87 81.28 90)
 			(effects
 				(font
@@ -10497,7 +10632,7 @@
 		(instances
 			(project "ETH1HMSR-SMS"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/74c7b67d-d69e-4dca-9063-6c1744637617"
-					(reference "R204")
+					(reference "R203")
 					(unit 1)
 				)
 			)

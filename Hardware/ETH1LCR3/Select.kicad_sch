@@ -1778,7 +1778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08642c8e-d936-433e-b26e-6757374ad8c1")
-		(property "Reference" "Q1403"
+		(property "Reference" "Q1402"
 			(at 110.49 115.5699 0)
 			(effects
 				(font
@@ -1838,7 +1838,7 @@
 		(instances
 			(project ""
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/bf005894-f421-4bee-8b90-2513b9271d50"
-					(reference "Q1403")
+					(reference "Q1402")
 					(unit 1)
 				)
 			)
@@ -2217,7 +2217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cbcbaab-549f-4208-867f-f5005c0e4370")
-		(property "Reference" "K1402"
+		(property "Reference" "K1401"
 			(at 138.43 44.45 90)
 			(effects
 				(font
@@ -2288,7 +2288,7 @@
 		(instances
 			(project ""
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/bf005894-f421-4bee-8b90-2513b9271d50"
-					(reference "K1402")
+					(reference "K1401")
 					(unit 1)
 				)
 			)
@@ -2304,7 +2304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783193fd-b99c-4e4b-ba30-2a349027b81a")
-		(property "Reference" "K1401"
+		(property "Reference" "K1402"
 			(at 138.43 100.33 90)
 			(effects
 				(font
@@ -2375,7 +2375,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/bf005894-f421-4bee-8b90-2513b9271d50"
-					(reference "K1401")
+					(reference "K1402")
 					(unit 1)
 				)
 			)
@@ -2391,7 +2391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9911840a-5097-4654-afbf-14573545f802")
-		(property "Reference" "#PWR01402"
+		(property "Reference" "#PWR01403"
 			(at 144.78 54.61 0)
 			(effects
 				(font
@@ -2442,7 +2442,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/bf005894-f421-4bee-8b90-2513b9271d50"
-					(reference "#PWR01402")
+					(reference "#PWR01403")
 					(unit 1)
 				)
 			)
@@ -2544,7 +2544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d87e7a1e-da23-4ce9-90c9-b0173fce8ce1")
-		(property "Reference" "#PWR01403"
+		(property "Reference" "#PWR01402"
 			(at 107.95 129.54 0)
 			(effects
 				(font
@@ -2594,7 +2594,7 @@
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/bf005894-f421-4bee-8b90-2513b9271d50"
-					(reference "#PWR01403")
+					(reference "#PWR01402")
 					(unit 1)
 				)
 			)
