@@ -622,6 +622,22 @@
     [
       "3e63d325-b751-4193-9f6f-1795fa7b594f",
       "IV 100k"
+    ],
+    [
+      "5ca76bdc-5faf-43bc-a619-90a4255ee5e6",
+      "Front"
+    ],
+    [
+      "bf005894-f421-4bee-8b90-2513b9271d50",
+      "Select front-rear"
+    ],
+    [
+      "4b99b960-154b-4647-bcd6-01f80df128c7",
+      "Connector"
+    ],
+    [
+      "91d8f898-c7e4-482d-967f-3ec423fb0e94",
+      "Trigger"
     ]
   ],
   "text_variables": {}
