@@ -1,0 +1,249 @@
+(footprint "HE360_x-5050462-8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "HE3600 Miniature Single In-line Reed Relay")
+	(property "Reference" "REF**"
+		(at 0 -3.175 0)
+		(layer "F.SilkS")
+		(uuid "76e02f2f-6d46-41a5-91a3-02dd661a4319")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "HE360_x-5050462-8"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "f197fd8e-72de-40c2-b9b6-f4a336e387ea")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "568058ce-0bac-4f8e-9dcb-8448967b9969")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37cfcf47-9d40-4cb0-90ce-660f53c300f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb9d39da-8517-4298-b04e-dfc6f577b2b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.6 -2.6)
+		(end -9.6 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "43a05481-9be9-4299-a2db-38717d04fbff")
+	)
+	(fp_line
+		(start -9.6 2.6)
+		(end 9.6 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "5a598bf0-0017-47a0-9826-d381c8858be1")
+	)
+	(fp_line
+		(start 9.6 -2.6)
+		(end -9.6 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "0dc4bbce-1306-4054-9448-4f3afc5ee8fc")
+	)
+	(fp_line
+		(start 9.6 2.6)
+		(end 9.6 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "89f18375-0354-47f1-ac50-2f68bd2cf0fb")
+	)
+	(fp_line
+		(start -9.6 -2.6)
+		(end -9.6 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b631994-f012-4310-a12c-0ac308c531db")
+	)
+	(fp_line
+		(start -9.6 1.6)
+		(end -7.6 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3a37028-c254-47cf-b040-b71f93184dfc")
+	)
+	(fp_line
+		(start -9.6 2.6)
+		(end 9.6 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75f8086f-7215-441b-8daa-9ec36e0594ce")
+	)
+	(fp_line
+		(start -7.6 1.6)
+		(end -7.6 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "addcaf54-b104-4383-ae74-af489f036b72")
+	)
+	(fp_line
+		(start 9.6 -2.6)
+		(end -9.6 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73f09866-6885-4a3b-84a3-2405ec793342")
+	)
+	(fp_line
+		(start 9.6 2.6)
+		(end 9.6 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b2c335c-fbdb-42ae-9067-855dcf29fcf7")
+	)
+	(fp_line
+		(start -9.6 -2.54)
+		(end 9.6 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17d48deb-c790-44b6-b909-3230bf154b5e")
+	)
+	(fp_line
+		(start -9.6 2.54)
+		(end -9.6 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6e4e953-18d7-4324-b358-b27777854184")
+	)
+	(fp_line
+		(start 9.6 -2.54)
+		(end 9.6 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86b91d2f-c338-4c54-940f-013940bbf34c")
+	)
+	(fp_line
+		(start 9.6 2.54)
+		(end -9.6 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15fed508-4d78-4b2b-8994-37ca37d5fb3d")
+	)
+	(pad "1" thru_hole rect
+		(at -7.62 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "65acec74-bb76-4fa5-97d8-03a7ae4904bf")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8a0f8c4-a834-4660-b7cf-9d10b4ff4721")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "feb02224-f4ff-4ad6-8b75-a652f85c4553")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42624d39-cde0-4e5e-8b65-302ee1007585")
+	)
+	(model "${KIPRJMOD}/lib/3d/EDR10.STEP"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)

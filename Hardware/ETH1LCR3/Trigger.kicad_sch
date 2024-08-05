@@ -917,7 +917,7 @@
 				)
 			)
 		)
-		(symbol "ETH1CLCR2:74AC125"
+		(symbol "ETH1LCR3:74AC125"
 			(pin_names
 				(offset 0.762)
 			)
@@ -3088,6 +3088,12 @@
 		(uuid "6b3694c6-4949-40b4-b5b5-41b1d2e3c550")
 	)
 	(junction
+		(at 68.58 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d935c53-2788-4dc2-8768-f2498e8bba21")
+	)
+	(junction
 		(at 195.58 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3110,6 +3116,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a114137b-254f-4e0b-b831-20f6f4809c63")
+	)
+	(junction
+		(at 68.58 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7413137-f843-4bc1-bc28-b4bf42845d40")
 	)
 	(junction
 		(at 123.19 100.33)
@@ -3184,6 +3196,16 @@
 	(no_connect
 		(at 105.41 88.9)
 		(uuid "e2ed03ef-c0ba-41bc-8eba-43d3ff82a0d5")
+	)
+	(wire
+		(pts
+			(xy 55.88 22.86) (xy 68.58 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014b0b70-1d2f-4565-8ccd-508af21dac54")
 	)
 	(wire
 		(pts
@@ -3315,16 +3337,6 @@
 		)
 		(uuid "1c2e805f-9555-453d-a25f-55e69ee222ff")
 	)
-	(wire
-		(pts
-			(xy 55.88 24.13) (xy 55.88 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c3c414c-56a4-4144-a9c7-89faa34f7ae9")
-	)
 	(polyline
 		(pts
 			(xy 118.11 99.06) (xy 118.11 191.77)
@@ -3437,7 +3449,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 31.75) (xy 68.58 34.29)
+			(xy 68.58 31.75) (xy 68.58 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3484,16 +3496,6 @@
 			(type default)
 		)
 		(uuid "4c5ea10a-7385-4751-94a5-e730dada6064")
-	)
-	(wire
-		(pts
-			(xy 55.88 34.29) (xy 55.88 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "512e4b46-ef9b-490a-bf6c-3efdf7e4f236")
 	)
 	(wire
 		(pts
@@ -3557,7 +3559,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 21.59) (xy 68.58 24.13)
+			(xy 68.58 21.59) (xy 68.58 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3687,6 +3689,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 33.02) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854a2673-b302-4d21-88d7-415b70596d96")
+	)
+	(wire
+		(pts
 			(xy 100.33 22.86) (xy 93.98 22.86)
 		)
 		(stroke
@@ -3754,6 +3766,16 @@
 			(type default)
 		)
 		(uuid "99f65c59-11a2-48dd-bcbd-2168f0180e6a")
+	)
+	(wire
+		(pts
+			(xy 55.88 24.13) (xy 55.88 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aeca996-febd-46d7-bb59-06189194fb0c")
 	)
 	(wire
 		(pts
@@ -3897,6 +3919,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 22.86) (xy 68.58 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d06ab3-a4ca-43b7-aa7c-36377b933c49")
+	)
+	(wire
+		(pts
 			(xy 106.68 24.13) (xy 106.68 22.86)
 		)
 		(stroke
@@ -3944,6 +3976,16 @@
 			(type default)
 		)
 		(uuid "c10f23b6-2c22-4e42-a6f7-b2cbe99a96ed")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4942b97-3b6a-4cb6-b553-9690c148da77")
 	)
 	(wire
 		(pts
@@ -4024,6 +4066,16 @@
 			(type default)
 		)
 		(uuid "cc007cbc-34f6-4d5f-b966-ff5f5209d638")
+	)
+	(wire
+		(pts
+			(xy 55.88 31.75) (xy 55.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1f3cac-8bb9-4fe9-ab09-feea9d108e35")
 	)
 	(wire
 		(pts
@@ -4466,7 +4518,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ETH1CLCR2:74AC125")
+		(lib_id "ETH1LCR3:74AC125")
 		(at 199.39 38.1 0)
 		(mirror y)
 		(unit 2)
@@ -4837,71 +4889,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 73.66 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1680bc98-ef99-4c39-a01b-771e33969760")
-		(property "Reference" "#PWR01606"
-			(at 73.66 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 74.041 59.1058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7561ad93-7ddb-453c-8068-40e0660c01c8")
-		)
-		(instances
-			(project "ETH1LCR3"
-				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/91d8f898-c7e4-482d-967f-3ec423fb0e94"
-					(reference "#PWR01606")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5VL")
 		(at 125.73 21.59 0)
 		(unit 1)
@@ -5034,7 +5021,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ETH1CLCR2:74AC125")
+		(lib_id "ETH1LCR3:74AC125")
 		(at 153.67 115.57 0)
 		(mirror y)
 		(unit 1)
@@ -5156,7 +5143,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 84.201 59.1058 0)
+			(at 83.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,71 +5521,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 55.88 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3223a399-bbf1-4f90-80dc-159e49eaa7e6")
-		(property "Reference" "#PWR01601"
-			(at 55.88 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 56.261 17.1958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 55.88 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d297bca-27e9-4a74-9414-935c1a9c7f85")
-		)
-		(instances
-			(project "ETH1LCR3"
-				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/91d8f898-c7e4-482d-967f-3ec423fb0e94"
-					(reference "#PWR01601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5VL")
 		(at 129.54 170.18 0)
 		(unit 1)
@@ -5665,7 +5587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ETH1CLCR2:74AC125")
+		(lib_id "ETH1LCR3:74AC125")
 		(at 129.54 179.07 0)
 		(mirror y)
 		(unit 5)
@@ -5854,7 +5776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 128.651 29.083 0)
 			(effects
 				(font
@@ -6798,7 +6720,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 84.201 29.083 0)
 			(effects
 				(font
@@ -6910,6 +6832,72 @@
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/91d8f898-c7e4-482d-967f-3ec423fb0e94"
 					(reference "#PWR01627")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 68.58 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81277cf3-452c-4cf8-84ce-45503acc9589")
+		(property "Reference" "#PWR01603"
+			(at 68.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 68.58 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 68.58 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebbb3dfb-985f-4fe3-9180-4fe00964f26f")
+		)
+		(instances
+			(project "ETH1LCR3"
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/91d8f898-c7e4-482d-967f-3ec423fb0e94"
+					(reference "#PWR01603")
 					(unit 1)
 				)
 			)
@@ -7296,136 +7284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 63.5 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d7eb22a-3b44-48e8-bf87-eb29ad467332")
-		(property "Reference" "#PWR01603"
-			(at 63.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 63.881 57.8358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 63.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb2ef341-c80a-482c-adba-007cbfff3331")
-		)
-		(instances
-			(project "ETH1LCR3"
-				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/91d8f898-c7e4-482d-967f-3ec423fb0e94"
-					(reference "#PWR01603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 68.58 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9eadeb10-4a10-4019-8bd3-9cac2062b162")
-		(property "Reference" "#PWR01604"
-			(at 68.58 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 68.961 17.1958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 68.58 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95a6ad2a-486f-4972-a49f-541f198f8570")
-		)
-		(instances
-			(project "ETH1LCR3"
-				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/91d8f898-c7e4-482d-967f-3ec423fb0e94"
-					(reference "#PWR01604")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Logic_LevelTranslator:TXB0104PW")
 		(at 78.74 83.82 0)
 		(unit 1)
@@ -7596,7 +7454,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ETH1CLCR2:74AC125")
+		(lib_id "ETH1LCR3:74AC125")
 		(at 199.39 59.69 0)
 		(mirror y)
 		(unit 3)
@@ -7700,6 +7558,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 73.66 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acfe6c0b-afe8-474d-9dae-3dbe73a41c11")
+		(property "Reference" "#PWR01602"
+			(at 73.66 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daa5c0ce-b271-42ff-b27c-017301692808")
+		)
+		(instances
+			(project "ETH1LCR3"
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/91d8f898-c7e4-482d-967f-3ec423fb0e94"
+					(reference "#PWR01602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 106.68 27.94 0)
 		(unit 1)
@@ -7786,7 +7710,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 154.051 29.083 0)
 			(effects
 				(font
@@ -8051,7 +7975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 58.801 29.083 0)
 			(effects
 				(font
@@ -8237,6 +8161,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 63.5 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7d7a2f0-ce82-479a-8636-ef043915bdde")
+		(property "Reference" "#PWR01601"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7568f436-b13a-406c-8e7c-d69b10188bc7")
+		)
+		(instances
+			(project ""
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/91d8f898-c7e4-482d-967f-3ec423fb0e94"
+					(reference "#PWR01601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDS")
 		(at 200.66 153.67 0)
 		(unit 1)
@@ -8303,72 +8293,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf9f0154-964e-4de6-8e1c-64175b8e722b")
-		(property "Reference" "#PWR01602"
-			(at 55.88 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 56.007 38.6842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b02bf5e7-e31c-4c41-9def-37c96edfa0e9")
-		)
-		(instances
-			(project "ETH1LCR3"
-				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/91d8f898-c7e4-482d-967f-3ec423fb0e94"
-					(reference "#PWR01602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ETH1CLCR2:74AC125")
+		(lib_id "ETH1LCR3:74AC125")
 		(at 199.39 81.28 0)
 		(mirror y)
 		(unit 4)
@@ -8557,7 +8482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 96.901 29.083 0)
 			(effects
 				(font

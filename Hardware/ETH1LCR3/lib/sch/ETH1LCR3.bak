@@ -2101,6 +2101,237 @@
 			)
 		)
 	)
+	(symbol "HE3621A0510"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 6.35 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HE3621A0510"
+			(at 6.35 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ETH1LCR3:HE360_x-5050462-8"
+			(at 6.35 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=153a1055-16a2-4933-87f1-140f0417708c&filename=littelfuse-reed-relays-he3600-datasheet"
+			(at 6.35 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature Single In-line Reed Relay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "reed relay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HE3621A0510_1_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HE3621A0510_2_1"
+			(polyline
+				(pts
+					(xy 0 -0.254) (xy 0 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.381) (xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 1.778) (xy 1.016 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 0.381) (xy -0.635 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.032) (xy 0.762 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -0.254) (xy -0.635 -0.254) (xy 0 0.381) (xy 0.635 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.27 1.27)
+				(end -1.27 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "LMH6618MK"
 		(pin_names
 			(offset 0.127)
@@ -3590,42 +3821,6 @@
 			)
 		)
 		(symbol "REG103GA-5_0_0"
-			(pin power_in line
-				(at -8.89 2.54 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 8.89 2.54 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 0 -10.16 90)
 				(length 2.54)
@@ -3682,6 +3877,42 @@
 			)
 		)
 		(symbol "REG103GA-5_1_0"
+			(pin passive line
+				(at -8.89 2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 2.54 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 0 -10.16 90)
 				(length 2.54) hide
@@ -3958,7 +4189,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "VOUT+"
@@ -3976,7 +4207,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "VOUT-"
@@ -3994,7 +4225,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "VIN-"
@@ -4012,7 +4243,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "VIN+"
@@ -4030,7 +4261,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -12.7 5.08 0)
 				(length 2.54) hide
 				(name "VIN+"
@@ -4048,7 +4279,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -12.7 -5.08 0)
 				(length 2.54) hide
 				(name "VIN-"
