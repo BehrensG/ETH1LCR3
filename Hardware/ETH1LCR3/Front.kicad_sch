@@ -344,7 +344,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1LCR3:TE_5227161-1"
 			(at 133.35 110.49 0)
 			(effects
 				(font
@@ -479,7 +479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1LCR3:TE_5227161-1"
 			(at 133.35 69.85 0)
 			(effects
 				(font
@@ -614,7 +614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1LCR3:TE_5227161-1"
 			(at 133.35 90.17 0)
 			(effects
 				(font
@@ -683,7 +683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1LCR3:TE_5227161-1"
 			(at 133.35 49.53 0)
 			(effects
 				(font

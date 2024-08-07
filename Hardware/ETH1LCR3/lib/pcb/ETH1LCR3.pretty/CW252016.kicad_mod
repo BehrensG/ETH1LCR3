@@ -1,0 +1,169 @@
+(footprint "CW252016"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CW252016 Series - High Q Chip Inductors")
+	(property "Reference" "REF**"
+		(at 0 -2.032 0)
+		(layer "F.SilkS")
+		(uuid "d96f942a-fbd9-4f92-8fce-79cb71ae96d0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "CW252016-R33G"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "fdbf4bd6-f948-4c1d-bb5a-c1de0e4e70bd")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c69acd06-1512-4a42-8b98-4215eaf99b20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77dafa49-4e5c-412c-81fe-479697c9699d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4261d73-455c-4fa2-b7d1-da0c3c3b27e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.159 -1.397)
+		(end 2.159 -1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94c2cd85-89a4-4e3e-a3a7-f9f7a98f7b7f")
+	)
+	(fp_line
+		(start -2.159 1.397)
+		(end -2.159 -1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "042b9e47-e2ac-4c54-aa27-572e8b26e1bd")
+	)
+	(fp_line
+		(start 2.159 -1.397)
+		(end 2.159 1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d72ed953-7e04-4f9e-b323-8062e6a66dfa")
+	)
+	(fp_line
+		(start 2.159 1.397)
+		(end -2.159 1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "835291a2-23e7-410c-ad93-50aa9c9fe68c")
+	)
+	(fp_line
+		(start -2.159 -1.397)
+		(end 2.159 -1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "902a426a-11ef-45e7-9a6e-014c368f1c06")
+	)
+	(fp_line
+		(start -2.159 1.397)
+		(end -2.159 -1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "19e5be25-4667-476b-b200-d4d255bd6d97")
+	)
+	(fp_line
+		(start 2.159 -1.397)
+		(end 2.159 1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c13b47cb-b703-4d51-82d1-b85b9a8c8e36")
+	)
+	(fp_line
+		(start 2.159 1.397)
+		(end -2.159 1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37eede86-957c-49a0-b1ec-815995c93a6a")
+	)
+	(pad "1" smd rect
+		(at -1.143 0)
+		(size 1.5 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cb99bc51-a219-486b-8e42-edec579453aa")
+	)
+	(pad "2" smd rect
+		(at 1.143 0)
+		(size 1.5 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1b04364a-8086-4710-a309-81158f2106ca")
+	)
+	(model "${KIPRJMOD}/lib/3d/CW252016.wrl"
+		(offset
+			(xyz 0 0 0.8)
+		)
+		(scale
+			(xyz 0.3937 0.3937 0.3937)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -9117,7 +9117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 193.04 117.8052 0)
 			(effects
 				(font
@@ -9899,7 +9899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 215.5952 110.49 0)
 			(effects
 				(font
@@ -10756,7 +10756,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1LCR3:NX5032GA"
 			(at 46.99 118.11 0)
 			(effects
 				(font

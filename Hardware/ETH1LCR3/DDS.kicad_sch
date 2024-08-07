@@ -3952,7 +3952,7 @@
 		(uuid "d137bbf9-6b91-4c76-8a53-7ad4b1770bc2")
 	)
 	(junction
-		(at 254 62.23)
+		(at 259.08 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d854b1dc-e59c-4129-881b-ff7f7a404252")
@@ -5201,7 +5201,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 62.23) (xy 255.27 62.23)
+			(xy 259.08 62.23) (xy 260.35 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5731,7 +5731,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 62.23) (xy 254 63.5)
+			(xy 259.08 62.23) (xy 259.08 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6231,7 +6231,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 54.61) (xy 264.16 54.61)
+			(xy 213.36 54.61) (xy 269.24 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6631,7 +6631,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 62.23) (xy 254 62.23)
+			(xy 234.95 62.23) (xy 259.08 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6661,7 +6661,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 62.23) (xy 264.16 62.23)
+			(xy 267.97 62.23) (xy 269.24 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6932,7 +6932,7 @@
 	)
 	(hierarchical_label "DAC0_OUT"
 		(shape input)
-		(at 264.16 62.23 0)
+		(at 269.24 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6944,7 +6944,7 @@
 	)
 	(hierarchical_label "SINE"
 		(shape output)
-		(at 264.16 54.61 0)
+		(at 269.24 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7412,7 +7412,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 254 67.31 0)
+		(at 259.08 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7421,7 +7421,7 @@
 		(fields_autoplaced yes)
 		(uuid "061ea0d8-4787-4a7c-a105-40fdd15dfac8")
 		(property "Reference" "R523"
-			(at 256.54 66.0399 0)
+			(at 261.62 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7430,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 256.54 68.5799 0)
+			(at 261.62 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +7439,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 252.222 67.31 90)
+			(at 257.302 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +7448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 67.31 0)
+			(at 259.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7457,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 254 67.31 0)
+			(at 259.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7953,7 +7953,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
-		(at 254 74.93 90)
+		(at 259.08 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7962,23 +7962,23 @@
 		(fields_autoplaced yes)
 		(uuid "15c0906d-42f1-4e3d-8c99-ff13bd66c280")
 		(property "Reference" "RV501"
-			(at 254 78.74 90)
+			(at 259.08 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 254 81.28 90)
+		(property "Value" "TS53YJ103MR10"
+			(at 259.08 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 254 74.93 0)
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Vishay_TS53YJ_Vertical"
+			(at 259.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +7987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 74.93 0)
+			(at 259.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +7996,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 254 74.93 0)
+			(at 259.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +8257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 223.2152 29.21 0)
 			(effects
 				(font
@@ -9214,7 +9214,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 259.08 62.23 90)
+		(at 264.16 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9222,7 +9222,7 @@
 		(dnp no)
 		(uuid "3026d092-5e8d-40d5-9a5d-bab9241d2e17")
 		(property "Reference" "R524"
-			(at 259.08 57.404 90)
+			(at 264.16 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9230,7 +9230,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 259.08 59.944 90)
+			(at 264.16 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9238,7 +9238,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 259.08 64.008 90)
+			(at 264.16 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 62.23 0)
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,7 +9256,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 259.08 62.23 0)
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,7 +10102,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 250.19 74.93 90)
+		(at 255.27 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10110,7 +10110,7 @@
 		(dnp no)
 		(uuid "49be7971-fc4d-44c7-98f5-76f6a777ef59")
 		(property "Reference" "#PWR0545"
-			(at 254 74.93 0)
+			(at 259.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,7 +10119,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 246.38 74.9301 90)
+			(at 251.46 74.9301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,7 +10128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 74.93 0)
+			(at 255.27 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10137,7 +10137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 74.93 0)
+			(at 255.27 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10146,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 250.19 74.93 0)
+			(at 255.27 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11952,7 +11952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 181.3052 29.21 0)
 			(effects
 				(font
@@ -12865,7 +12865,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 257.81 74.93 270)
+		(at 262.89 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12874,7 +12874,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8099980-7d70-4c3b-b97f-6b90d511605b")
 		(property "Reference" "#PWR0549"
-			(at 254 74.93 0)
+			(at 259.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12883,7 +12883,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 261.62 74.9299 90)
+			(at 266.7 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12892,7 +12892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 74.93 0)
+			(at 262.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12901,7 +12901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 74.93 0)
+			(at 262.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12910,7 +12910,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 257.81 74.93 0)
+			(at 262.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5097,10 +5097,10 @@
 			(uuid "77429573-4b48-405e-b2dd-6c5cb7dab3f6")
 		)
 		(pin "3"
-			(uuid "be97c500-58fb-4039-8729-28de0d9e63fb")
+			(uuid "be97c500-58fb-4039-8729-28de0d9e63fc")
 		)
 		(pin "2"
-			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a072")
+			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a073")
 		)
 		(instances
 			(project "ETH1LCR3"
@@ -5613,10 +5613,10 @@
 			(uuid "47351853-a109-4ecc-88bc-9115f02cb676")
 		)
 		(pin "3"
-			(uuid "be97c500-58fb-4039-8729-28de0d9e63fb")
+			(uuid "be97c500-58fb-4039-8729-28de0d9e63fd")
 		)
 		(pin "2"
-			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a072")
+			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a074")
 		)
 		(instances
 			(project "ETH1LCR3"
@@ -5822,10 +5822,10 @@
 			(uuid "1d26f6c8-70c4-42b7-a4a4-121826fb451b")
 		)
 		(pin "3"
-			(uuid "be97c500-58fb-4039-8729-28de0d9e63fb")
+			(uuid "be97c500-58fb-4039-8729-28de0d9e63fe")
 		)
 		(pin "2"
-			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a072")
+			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a075")
 		)
 		(instances
 			(project "ETH1LCR3"
@@ -6233,10 +6233,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2a40802-5a53-4d98-a834-c044deeb6baf")
+			(uuid "c2a40802-5a53-4d98-a834-c044deeb6bb0")
 		)
 		(pin "4"
-			(uuid "8340f32e-0eef-4f11-8df5-ac7de11dbddc")
+			(uuid "8340f32e-0eef-4f11-8df5-ac7de11dbddd")
 		)
 		(pin "3"
 			(uuid "902ae417-d6e4-4f11-aaa7-9e0efac920b7")
@@ -6313,10 +6313,10 @@
 			(uuid "1bb2e0b9-3090-4bbc-91c1-018cc9c446aa")
 		)
 		(pin "3"
-			(uuid "be97c500-58fb-4039-8729-28de0d9e63fb")
+			(uuid "be97c500-58fb-4039-8729-28de0d9e63ff")
 		)
 		(pin "2"
-			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a072")
+			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a076")
 		)
 		(instances
 			(project "ETH1LCR3"
@@ -6383,10 +6383,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2a40802-5a53-4d98-a834-c044deeb6baf")
+			(uuid "c2a40802-5a53-4d98-a834-c044deeb6bb1")
 		)
 		(pin "4"
-			(uuid "8340f32e-0eef-4f11-8df5-ac7de11dbddc")
+			(uuid "8340f32e-0eef-4f11-8df5-ac7de11dbdde")
 		)
 		(pin "3"
 			(uuid "c0219233-7742-4565-8472-bb7262002210")
@@ -6463,10 +6463,10 @@
 			(uuid "4a898149-b723-4855-9e48-f6a004fb284d")
 		)
 		(pin "3"
-			(uuid "be97c500-58fb-4039-8729-28de0d9e63fb")
+			(uuid "be97c500-58fb-4039-8729-28de0d9e6400")
 		)
 		(pin "2"
-			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a072")
+			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a077")
 		)
 		(instances
 			(project "ETH1LCR3"
@@ -6533,10 +6533,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2a40802-5a53-4d98-a834-c044deeb6baf")
+			(uuid "c2a40802-5a53-4d98-a834-c044deeb6bb2")
 		)
 		(pin "4"
-			(uuid "8340f32e-0eef-4f11-8df5-ac7de11dbddc")
+			(uuid "8340f32e-0eef-4f11-8df5-ac7de11dbddf")
 		)
 		(pin "3"
 			(uuid "ff87373b-3107-4dd5-b2c9-3da92108f4e1")
@@ -6579,7 +6579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1LCR3:Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows"
 			(at 111.76 123.19 0)
 			(effects
 				(font
@@ -6995,10 +6995,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2a40802-5a53-4d98-a834-c044deeb6baf")
+			(uuid "c2a40802-5a53-4d98-a834-c044deeb6bb3")
 		)
 		(pin "4"
-			(uuid "8340f32e-0eef-4f11-8df5-ac7de11dbddc")
+			(uuid "8340f32e-0eef-4f11-8df5-ac7de11dbde0")
 		)
 		(pin "3"
 			(uuid "95c60047-253b-4556-9ec9-fdbadaaeeca0")
@@ -7135,16 +7135,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2a40802-5a53-4d98-a834-c044deeb6bae")
+			(uuid "c2a40802-5a53-4d98-a834-c044deeb6bb4")
 		)
 		(pin "4"
-			(uuid "8340f32e-0eef-4f11-8df5-ac7de11dbddb")
+			(uuid "8340f32e-0eef-4f11-8df5-ac7de11dbde1")
 		)
 		(pin "3"
-			(uuid "be97c500-58fb-4039-8729-28de0d9e63fb")
+			(uuid "be97c500-58fb-4039-8729-28de0d9e6401")
 		)
 		(pin "2"
-			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a072")
+			(uuid "c2d93e14-0ffa-4a05-bfa6-4196ce39a078")
 		)
 		(instances
 			(project ""

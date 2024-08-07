@@ -4716,7 +4716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ETH1LCR3:CW252016"
 			(at 222.25 137.16 0)
 			(effects
 				(font

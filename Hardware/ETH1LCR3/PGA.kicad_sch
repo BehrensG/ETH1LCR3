@@ -4139,7 +4139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Trim"
+		(property "Value" "JZ200"
 			(at 102.87 69.5959 0)
 			(effects
 				(font
@@ -4148,7 +4148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Trimmer_Voltronics_JZ"
 			(at 99.06 68.58 0)
 			(effects
 				(font
@@ -5921,7 +5921,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Trim"
+		(property "Value" "JZ200"
 			(at 175.26 69.5959 0)
 			(effects
 				(font
@@ -5930,7 +5930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Trimmer_Voltronics_JZ"
 			(at 171.45 68.58 0)
 			(effects
 				(font

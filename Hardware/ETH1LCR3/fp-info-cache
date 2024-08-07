@@ -1,4 +1,4 @@
-23686688717033244
+23698747020641780
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56336,6 +56336,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 ETH1LCR3
+960-19-12-S-AB-0
+
+
+0
+2
+0
+ETH1LCR3
 CONV_TEL_5-2411
 
 
@@ -56343,12 +56350,54 @@ CONV_TEL_5-2411
 7
 7
 ETH1LCR3
+CW252016
+CW252016 Series - High Q Chip Inductors
+
+0
+2
+2
+ETH1LCR3
+DRQ73
+
+DRQ73-220-R 
+0
+4
+4
+ETH1LCR3
 HE360_x-5050462-8
 HE3600 Miniature Single In-line Reed Relay
 
 0
 4
 4
+ETH1LCR3
+NX3225GD
+ A small surface-mount type crystal unit, ideal for an engine control CPU clock
+
+0
+2
+2
+ETH1LCR3
+NX5032GA
+Crystal
+
+0
+2
+2
+ETH1LCR3
+Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows
+
+
+0
+66
+64
+ETH1LCR3
+TE_5227161-1
+
+
+0
+4
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
