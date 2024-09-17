@@ -944,7 +944,7 @@
 				)
 			)
 		)
-		(symbol "ETH1LCR3:LMH6702MA"
+		(symbol "ETH1LCR3:LMH6720MF"
 			(pin_names
 				(offset 0.127)
 			)
@@ -960,7 +960,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LMH6720MA"
+			(property "Value" "LMH6720MF"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -1015,7 +1015,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LMH6702MA_0_1"
+			(symbol "LMH6720MF_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -1029,7 +1029,7 @@
 					)
 				)
 			)
-			(symbol "LMH6702MA_1_1"
+			(symbol "LMH6720MF_1_1"
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -2543,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 160.02) (xy 53.34 160.02)
+			(xy 33.02 160.02) (xy 36.83 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2710,6 +2710,16 @@
 			(type default)
 		)
 		(uuid "7da20839-8eac-4a4a-8ccc-b364f48794d7")
+	)
+	(wire
+		(pts
+			(xy 44.45 157.48) (xy 53.34 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df88f20-6dcc-4c42-82a2-b0c654417360")
 	)
 	(wire
 		(pts
@@ -2943,6 +2953,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 160.02) (xy 53.34 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc8b6e5-d090-4b4e-8fae-ca6acdc41593")
+	)
+	(wire
+		(pts
 			(xy 83.82 149.86) (xy 83.82 144.78)
 		)
 		(stroke
@@ -3143,7 +3163,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 157.48) (xy 53.34 157.48)
+			(xy 33.02 157.48) (xy 36.83 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3589,7 +3609,7 @@
 	)
 	(hierarchical_label "PGA_A0"
 		(shape input)
-		(at 44.45 160.02 180)
+		(at 33.02 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3601,7 +3621,7 @@
 	)
 	(hierarchical_label "PGA_A1"
 		(shape input)
-		(at 44.45 157.48 180)
+		(at 33.02 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4535,6 +4555,74 @@
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/a955767b-836b-415d-9ade-bdfb6e1524e6"
 					(reference "C615")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 160.02 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "263a9070-e88c-43c6-85f8-d9e83153523b")
+		(property "Reference" "R626"
+			(at 40.64 164.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51"
+			(at 40.64 162.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 40.64 158.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8decd05-785e-40f1-aed8-6d75dce41ebe")
+		)
+		(pin "2"
+			(uuid "7ad2360b-117f-4877-a33b-9a8871f886bf")
+		)
+		(instances
+			(project "ETH1LCR3"
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/a955767b-836b-415d-9ade-bdfb6e1524e6"
+					(reference "R626")
 					(unit 1)
 				)
 			)
@@ -5635,9 +5723,9 @@
 		(at 196.85 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5df64cb1-a2e5-4493-bb3e-c018a1a13be0")
 		(property "Reference" "R619"
@@ -6043,7 +6131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ETH1LCR3:LMH6702MA")
+		(lib_id "ETH1LCR3:LMH6720MF")
 		(at 215.9 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6059,7 +6147,7 @@
 				)
 			)
 		)
-		(property "Value" "LMH6720MA"
+		(property "Value" "LMH6720MF"
 			(at 220.218 33.02 0)
 			(effects
 				(font
@@ -6197,9 +6285,9 @@
 		(at 67.31 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "71d2babe-ae3c-4c6d-80ef-8ea8dcf7933a")
 		(property "Reference" "C602"
@@ -6528,7 +6616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ETH1LCR3:LMH6702MA")
+		(lib_id "ETH1LCR3:LMH6720MF")
 		(at 143.51 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6544,7 +6632,7 @@
 				)
 			)
 		)
-		(property "Value" "LMH6720MA"
+		(property "Value" "LMH6720MF"
 			(at 147.828 33.02 0)
 			(effects
 				(font
@@ -6690,7 +6778,7 @@
 				)
 			)
 		)
-		(property "Value" "LMH6618MK"
+		(property "Value" "LMH6618MKE"
 			(at 65.786 111.252 0)
 			(effects
 				(font
@@ -6698,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
 			(at 63.5 121.92 0)
 			(effects
 				(font
@@ -8418,7 +8506,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ETH1LCR3:LMH6702MA")
+		(lib_id "ETH1LCR3:LMH6720MF")
 		(at 69.85 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8434,7 +8522,7 @@
 				)
 			)
 		)
-		(property "Value" "LMH6720MA"
+		(property "Value" "LMH6720MF"
 			(at 74.168 33.02 0)
 			(effects
 				(font
@@ -8492,6 +8580,73 @@
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/a955767b-836b-415d-9ade-bdfb6e1524e6"
 					(reference "U603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e92ec0a7-a760-4b5c-8029-74784b7a730f")
+		(property "Reference" "R625"
+			(at 40.64 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51"
+			(at 40.64 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 40.64 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5ed33eb-09b5-414c-bd77-f5c37d274bd6")
+		)
+		(pin "2"
+			(uuid "f8e9a868-8fc0-4c4f-8224-a0912d8c111b")
+		)
+		(instances
+			(project "ETH1LCR3"
+				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc/a955767b-836b-415d-9ade-bdfb6e1524e6"
+					(reference "R625")
 					(unit 1)
 				)
 			)

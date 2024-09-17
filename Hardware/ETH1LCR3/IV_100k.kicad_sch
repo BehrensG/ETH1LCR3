@@ -2240,9 +2240,9 @@
 		(at 143.51 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a288d3c-5586-4915-8a81-09a06c222a3e")
 		(property "Reference" "C903"
@@ -2253,7 +2253,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "1p"
 			(at 143.51 63.5 90)
 			(effects
 				(font

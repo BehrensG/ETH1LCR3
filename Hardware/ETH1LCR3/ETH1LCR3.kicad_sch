@@ -1393,7 +1393,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "37965f22-1055-43ab-ab57-7d9b27fac2d0")
 		(property "Sheetname" "Frontend"
@@ -1631,7 +1631,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "43994c6d-e030-4cc9-803d-7f33181d98ca")
 		(property "Sheetname" "Power"
@@ -1689,7 +1689,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "4b99b960-154b-4647-bcd6-01f80df128c7")
 		(property "Sheetname" "Connector"
@@ -1877,7 +1877,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "5ca76bdc-5faf-43bc-a619-90a4255ee5e6")
 		(property "Sheetname" "Front"
@@ -1955,7 +1955,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "69949141-78d8-43de-bf63-b55bbbab5791")
 		(property "Sheetname" "DDS"
@@ -2093,7 +2093,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "6f6e1f41-595d-4dda-881d-b12a543de398")
 		(property "Sheetname" "MCU"
@@ -2711,7 +2711,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "74c7b67d-d69e-4dca-9063-6c1744637617")
 		(property "Sheetname" "Ethernet"
@@ -2889,7 +2889,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "91d8f898-c7e4-482d-967f-3ec423fb0e94")
 		(property "Sheetname" "Trigger"
@@ -2967,7 +2967,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "a955767b-836b-415d-9ade-bdfb6e1524e6")
 		(property "Sheetname" "PGA"
@@ -3075,7 +3075,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "bf005894-f421-4bee-8b90-2513b9271d50")
 		(property "Sheetname" "Select front-rear"
@@ -3243,7 +3243,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "effecda5-769f-4dde-a513-c082279edfb3")
 		(property "Sheetname" "PSD"

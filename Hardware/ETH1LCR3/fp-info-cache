@@ -1,4 +1,4 @@
-23698747020641780
+23700473629950818
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56380,6 +56380,13 @@ NX3225GD
 ETH1LCR3
 NX5032GA
 Crystal
+
+0
+2
+2
+ETH1LCR3
+SRN3010TA
+
 
 0
 2
