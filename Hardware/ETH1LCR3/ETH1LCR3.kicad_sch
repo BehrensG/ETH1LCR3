@@ -1860,6 +1860,26 @@
 			)
 			(uuid "6fe1baa6-6364-40fc-bd62-1a167dd46c22")
 		)
+		(pin "SINE" input
+			(at 214.63 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fd08fc75-4682-4726-a80a-b613bb0ad9df")
+		)
+		(pin "DC_BIAS_VOLTAGE" input
+			(at 214.63 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52bc2215-486b-4650-aa26-ef719bc52899")
+		)
 		(instances
 			(project "ETH1LCR3"
 				(path "/6623bacb-57aa-43ce-9e51-b38a560dd9fc"
