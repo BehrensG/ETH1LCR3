@@ -7969,7 +7969,7 @@
 				)
 			)
 		)
-		(property "Value" "TS53YJ103MR10"
+		(property "Value" "3266W-1-103LF"
 			(at 259.08 81.28 90)
 			(effects
 				(font
@@ -7977,7 +7977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Vishay_TS53YJ_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical"
 			(at 259.08 74.93 0)
 			(effects
 				(font
