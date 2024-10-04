@@ -6799,10 +6799,6 @@
 		(uuid "f4469db9-c316-4b77-b1c8-a8b274ec55bf")
 	)
 	(no_connect
-		(at 144.78 85.09)
-		(uuid "0185133e-fefc-45db-bde0-766e7f44d0c3")
-	)
-	(no_connect
 		(at 80.01 118.11)
 		(uuid "14696e5c-511d-44eb-9eca-078570a9e452")
 	)
@@ -6823,6 +6819,10 @@
 		(uuid "46043a8d-0833-4e1e-8ac3-9972db4c84e6")
 	)
 	(no_connect
+		(at 187.96 67.31)
+		(uuid "8134553d-d7c9-45d2-84cb-256080b71615")
+	)
+	(no_connect
 		(at 30.48 41.91)
 		(uuid "96b7f354-3ae0-4e95-8e81-3d03ce05e5b2")
 	)
@@ -6839,8 +6839,8 @@
 		(uuid "a52dc7bd-02f8-4572-aa6d-4e4f5d2bdbcd")
 	)
 	(no_connect
-		(at 144.78 90.17)
-		(uuid "d26cd893-0de0-4811-a0a4-1e19c2fea61e")
+		(at 187.96 143.51)
+		(uuid "a9895cc0-04b3-4717-9cf6-10a53224cbee")
 	)
 	(no_connect
 		(at 260.35 38.1)
@@ -7394,6 +7394,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 90.17) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35907b26-ac54-4a62-8a02-3df7e3ff38d5")
+	)
+	(wire
+		(pts
 			(xy 250.19 25.4) (xy 250.19 26.67)
 		)
 		(stroke
@@ -7664,13 +7674,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 67.31) (xy 189.23 67.31)
+			(xy 143.51 85.09) (xy 144.78 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53f0d6d2-af6f-484c-9200-94776d11e2de")
+		(uuid "537d4e0d-3786-43da-a17e-e927ac30a0f8")
 	)
 	(wire
 		(pts
@@ -9064,16 +9074,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 143.51) (xy 189.23 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfd46cef-20df-47e5-8ea2-3e906ea9a894")
-	)
-	(wire
-		(pts
 			(xy 73.66 102.87) (xy 73.66 104.14)
 		)
 		(stroke
@@ -9843,7 +9843,7 @@
 	)
 	(hierarchical_label "ADS_~{DRDY}"
 		(shape input)
-		(at 143.51 95.25 180)
+		(at 143.51 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9879,13 +9879,13 @@
 	)
 	(hierarchical_label "DDS_SDATA"
 		(shape output)
-		(at 143.51 87.63 180)
+		(at 189.23 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "286a5fb2-43ec-4f25-a7fb-153b5af440b6")
 	)
@@ -9951,7 +9951,7 @@
 	)
 	(hierarchical_label "ADS_START"
 		(shape output)
-		(at 143.51 97.79 180)
+		(at 143.51 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10011,7 +10011,7 @@
 	)
 	(hierarchical_label "DDS_~{FSYNC1}"
 		(shape output)
-		(at 143.51 77.47 180)
+		(at 143.51 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10035,13 +10035,13 @@
 	)
 	(hierarchical_label "ADS_~{CS}"
 		(shape output)
-		(at 189.23 67.31 0)
+		(at 143.51 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5b8e835c-4d7f-428d-bbfa-22ec315c22df")
 	)
@@ -10059,13 +10059,13 @@
 	)
 	(hierarchical_label "ADS_DIN"
 		(shape output)
-		(at 189.23 146.05 0)
+		(at 143.51 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6d773ba0-b82a-48ce-bf28-e596a06737e3")
 	)
@@ -10155,13 +10155,13 @@
 	)
 	(hierarchical_label "ADS_DOUT"
 		(shape input)
-		(at 189.23 143.51 0)
+		(at 143.51 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "84030e22-74c1-4b61-b78e-a41aec54257b")
 	)
@@ -10347,7 +10347,7 @@
 	)
 	(hierarchical_label "DDS_~{FSYNC2}"
 		(shape output)
-		(at 143.51 80.01 180)
+		(at 143.51 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10455,13 +10455,13 @@
 	)
 	(hierarchical_label "DDS_SCLK"
 		(shape output)
-		(at 143.51 82.55 180)
+		(at 189.23 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f539da68-b745-4e65-a887-59b9a07b9641")
 	)
@@ -10479,13 +10479,13 @@
 	)
 	(hierarchical_label "ADS_SCLK"
 		(shape output)
-		(at 189.23 140.97 0)
+		(at 143.51 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f863b2d8-edc9-4364-a581-bc8f6af28cec")
 	)
